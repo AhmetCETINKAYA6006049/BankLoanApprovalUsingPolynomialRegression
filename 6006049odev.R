@@ -31,4 +31,4 @@ dataset$LoanAccounts2 = dataset$LoanAccounts^2
 poly_reg = lm(formula = LoanAmountinK ~ .,
               data = dataset)
 
-
+plot(q,y,type='l',col='navy',main='Nonlinear relationship',lwd=3)
